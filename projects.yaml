@@ -338,6 +338,10 @@ projects:
     github_id: dzerbino/velvet
     category: assembler
     show: True
+  - name: hifiasm
+    github_id: chhylp123/hifiasm
+    category: assembler
+    show: True
   - name: canu
     github_id: marbl/canu
     category: assembler
