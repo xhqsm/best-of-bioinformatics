@@ -40,8 +40,27 @@ categories:
     title: "Data Compression"
   - category: "primer-designing"
     title: "Primer Designing"
+  - category: "liftover"
+    title: "LiftOver"
 
 projects:
+  # liftover
+  - name: Liftoff
+    github_id: agshumate/Liftoff
+    category: liftover
+    show: True
+  - name: CrossMap
+    github_id: liguowang/CrossMap
+    category: liftover
+    show: True
+  - name: pyliftover
+    github_id: konstantint/pyliftover
+    category: liftover
+    show: True
+  - name: liftover
+    github_id: jeremymcrae/liftover
+    category: liftover
+    show: True
   # primer-designing
   - name: primer3
     github_id: primer3-org/primer3
@@ -325,6 +344,10 @@ projects:
     github_id: dellytools/delly
     category: structural-variation
     show: True
+  - name: cnvnator
+    github_id: abyzovlab/cnvnator
+    category: structural-variation
+    show: True
   - name: smoove
     github_id: brentp/smoove
     category: structural-variation
@@ -494,9 +517,6 @@ projects:
   - name: RepeatMasker
     github_id: rmhubley/RepeatMasker
     show: True
-  - name: CrossMap
-    github_id: liguowang/CrossMap
-    show: True
   - name: bioconda-recipes
     github_id: bioconda/bioconda-recipes
     show: True
@@ -520,9 +540,6 @@ projects:
     show: True
   - name: kaiju
     github_id: bioinformatics-centre/kaiju
-    show: True
-  - name: Liftoff
-    github_id: agshumate/Liftoff
     show: True
   - name: stringtie
     github_id: gpertea/stringtie
