@@ -11,10 +11,10 @@
 - [Tools for SAM/BAM/CRAM](#tools-for-sambamcram) _9 projects_
 - [Tools for VCF/BCF](#tools-for-vcfbcf) _5 projects_
 - [QC for FASTQ](#qc-for-fastq) _5 projects_
-- [Assembler](#assembler) _6 projects_
+- [Assembler](#assembler) _7 projects_
 - [NGS Alignment](#ngs-alignment) _10 projects_
 - [Variant Caller](#variant-caller) _11 projects_
-- [Structural Variation Caller](#structural-variation-caller) _13 projects_
+- [Structural Variation Caller](#structural-variation-caller) _14 projects_
 - [Variant Annotation](#variant-annotation) _6 projects_
 - [Microsatellite Instability](#microsatellite-instability) _4 projects_
 - [MHC/HLA](#mhchla) _5 projects_
@@ -22,7 +22,8 @@
 - [Visualization](#visualization) _5 projects_
 - [Data Compression](#data-compression) _4 projects_
 - [Primer Designing](#primer-designing) _3 projects_
-- [Others](#others) _22 projects_
+- [LiftOver](#liftover) _4 projects_
+- [Others](#others) _20 projects_
 
 ## Explanation
 - 🥇🥈🥉&nbsp; Combined project-quality score
@@ -47,7 +48,7 @@
 
 <details><summary><b><a href="https://github.com/shenwei356/seqkit">seqkit</a></b> (🥇18 ·  ⭐ 600) - A cross-platform and ultrafast toolkit for FASTA/Q file manipulation in Golang.</summary>
 
-- [GitHub](https://github.com/shenwei356/seqkit) (👨‍💻 5 · 🔀 89 · 📥 43K · 📋 160 - 3% open · ⏱️ 18.02.2021):
+- [GitHub](https://github.com/shenwei356/seqkit) (👨‍💻 5 · 🔀 89 · 📥 43K · 📋 160 - 4% open · ⏱️ 18.02.2021):
 
 	```
 	git clone https://github.com/shenwei356/seqkit
@@ -55,13 +56,13 @@
 </details>
 <details><summary><b><a href="https://github.com/mdshw5/pyfaidx">pyfaidx</a></b> (🥇18 ·  ⭐ 310) - Efficient pythonic random access to fasta subsequences.</summary>
 
-- [GitHub](https://github.com/mdshw5/pyfaidx) (👨‍💻 25 · 🔀 50 · 📦 440 · 📋 120 - 10% open · ⏱️ 08.12.2020):
+- [GitHub](https://github.com/mdshw5/pyfaidx) (👨‍💻 26 · 🔀 51 · 📦 440 · 📋 120 - 10% open · ⏱️ 28.02.2021):
 
 	```
 	git clone https://github.com/mdshw5/pyfaidx
 	```
 </details>
-<details><summary><b><a href="https://github.com/gmarcais/Jellyfish">Jellyfish</a></b> (🥉16 ·  ⭐ 280) - A fast multi-threaded k-mer counter.</summary>
+<details><summary><b><a href="https://github.com/gmarcais/Jellyfish">Jellyfish</a></b> (🥉15 ·  ⭐ 280) - A fast multi-threaded k-mer counter.</summary>
 
 - [GitHub](https://github.com/gmarcais/Jellyfish) (👨‍💻 12 · 🔀 120 · 📥 84K · 📋 150 - 46% open · ⏱️ 05.05.2020):
 
@@ -91,9 +92,9 @@
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
 
-<details><summary><b><a href="https://github.com/arq5x/bedtools2">bedtools2</a></b> (🥇22 ·  ⭐ 650) - bedtools - the swiss army knife for genome arithmetic.</summary>
+<details><summary><b><a href="https://github.com/arq5x/bedtools2">bedtools2</a></b> (🥇22 ·  ⭐ 660) - bedtools - the swiss army knife for genome arithmetic.</summary>
 
-- [GitHub](https://github.com/arq5x/bedtools2) (👨‍💻 85 · 🔀 240 · 📥 360K · 📋 670 - 20% open · ⏱️ 04.02.2021):
+- [GitHub](https://github.com/arq5x/bedtools2) (👨‍💻 85 · 🔀 240 · 📥 370K · 📋 670 - 20% open · ⏱️ 04.02.2021):
 
 	```
 	git clone https://github.com/arq5x/bedtools2
@@ -109,7 +110,7 @@
 </details>
 <details><summary><b><a href="https://github.com/gpertea/gffread">gffread</a></b> (🥈17 ·  ⭐ 180) - GFF/GTF utility providing format conversions, region filtering, FASTA sequence..</summary>
 
-- [GitHub](https://github.com/gpertea/gffread) (👨‍💻 4 · 🔀 24 · 📥 730 · 📋 67 - 37% open · ⏱️ 06.02.2021):
+- [GitHub](https://github.com/gpertea/gffread) (👨‍💻 4 · 🔀 24 · 📥 740 · 📋 67 - 37% open · ⏱️ 06.02.2021):
 
 	```
 	git clone https://github.com/gpertea/gffread
@@ -145,23 +146,23 @@
 	git clone https://github.com/broadinstitute/picard
 	```
 </details>
-<details><summary><b><a href="https://github.com/samtools/samtools">samtools</a></b> (🥈20 ·  ⭐ 1K) - Tools (written in C using htslib) for manipulating next-generation sequencing..</summary>
+<details><summary><b><a href="https://github.com/samtools/samtools">samtools</a></b> (🥈19 ·  ⭐ 1K · 📉) - Tools (written in C using htslib) for manipulating next-generation..</summary>
 
-- [GitHub](https://github.com/samtools/samtools) (👨‍💻 78 · 🔀 440 · 📥 790K · 📋 840 - 20% open · ⏱️ 23.02.2021):
+- [GitHub](https://github.com/samtools/samtools) (👨‍💻 78 · 🔀 440 · 📥 790K · 📋 840 - 21% open · ⏱️ 23.02.2021):
 
 	```
 	git clone https://github.com/samtools/samtools
 	```
 </details>
-<details><summary><b><a href="https://github.com/samtools/htslib">htslib</a></b> (🥈19 ·  ⭐ 520) - C library for high-throughput sequencing data formats.</summary>
+<details><summary><b><a href="https://github.com/samtools/htslib">htslib</a></b> (🥈18 ·  ⭐ 520 · 📉) - C library for high-throughput sequencing data formats.</summary>
 
-- [GitHub](https://github.com/samtools/htslib) (👨‍💻 69 · 🔀 340 · 📥 370K · 📋 510 - 22% open · ⏱️ 22.02.2021):
+- [GitHub](https://github.com/samtools/htslib) (👨‍💻 69 · 🔀 340 · 📥 370K · 📋 510 - 23% open · ⏱️ 22.02.2021):
 
 	```
 	git clone https://github.com/samtools/htslib
 	```
 </details>
-<details><summary><b><a href="https://github.com/biod/sambamba">sambamba</a></b> (🥈19 ·  ⭐ 410) - Tools for working with SAM/BAM data.</summary>
+<details><summary><b><a href="https://github.com/biod/sambamba">sambamba</a></b> (🥈18 ·  ⭐ 410 · 📉) - Tools for working with SAM/BAM data.</summary>
 
 - [GitHub](https://github.com/biod/sambamba) (👨‍💻 22 · 🔀 74 · 📥 110K · 📋 410 - 2% open · ⏱️ 01.12.2020):
 
@@ -169,23 +170,23 @@
 	git clone https://github.com/biod/sambamba
 	```
 </details>
-<details><summary><b><a href="https://github.com/brentp/mosdepth">mosdepth</a></b> (🥉18 ·  ⭐ 370) - fast BAM/CRAM depth calculation for WGS, exome, or targeted sequencing.</summary>
+<details><summary><b><a href="https://github.com/pysam-developers/pysam">pysam</a></b> (🥉17 ·  ⭐ 490) - Pysam is a Python module for reading and manipulating SAM/BAM/VCF/BCF files. It's..</summary>
 
-- [GitHub](https://github.com/brentp/mosdepth) (👨‍💻 14 · 🔀 65 · 📥 66K · 📋 120 - 17% open · ⏱️ 20.11.2020):
-
-	```
-	git clone https://github.com/brentp/mosdepth
-	```
-</details>
-<details><summary><b><a href="https://github.com/pysam-developers/pysam">pysam</a></b> (🥉17 ·  ⭐ 480) - Pysam is a Python module for reading and manipulating SAM/BAM/VCF/BCF files. It's..</summary>
-
-- [GitHub](https://github.com/pysam-developers/pysam) (👨‍💻 96 · 🔀 200 · 📋 700 - 28% open · ⏱️ 11.01.2021):
+- [GitHub](https://github.com/pysam-developers/pysam) (👨‍💻 96 · 🔀 200 · 📋 700 - 27% open · ⏱️ 28.02.2021):
 
 	```
 	git clone https://github.com/pysam-developers/pysam
 	```
 </details>
-<details><summary><b><a href="https://github.com/genome/bam-readcount">bam-readcount</a></b> (🥉14 ·  ⭐ 180) - count DNA sequence reads in BAM files.</summary>
+<details><summary><b><a href="https://github.com/brentp/mosdepth">mosdepth</a></b> (🥉17 ·  ⭐ 370) - fast BAM/CRAM depth calculation for WGS, exome, or targeted sequencing.</summary>
+
+- [GitHub](https://github.com/brentp/mosdepth) (👨‍💻 14 · 🔀 65 · 📥 66K · 📋 120 - 18% open · ⏱️ 20.11.2020):
+
+	```
+	git clone https://github.com/brentp/mosdepth
+	```
+</details>
+<details><summary><b><a href="https://github.com/genome/bam-readcount">bam-readcount</a></b> (🥉14 ·  ⭐ 180 · 💤) - count DNA sequence reads in BAM files.</summary>
 
 - [GitHub](https://github.com/genome/bam-readcount) (👨‍💻 13 · 🔀 67 · 📋 60 - 56% open · ⏱️ 10.02.2020):
 
@@ -201,9 +202,9 @@
 	git clone https://github.com/GregoryFaust/samblaster
 	```
 </details>
-<details><summary><b><a href="https://github.com/gt1/biobambam2">biobambam2</a></b> (🥉13 ·  ⭐ 84 · 💤) - Tools for early stage alignment file processing.</summary>
+<details><summary><b><a href="https://github.com/gt1/biobambam2">biobambam2</a></b> (🥉13 ·  ⭐ 85 · 💤) - Tools for early stage alignment file processing.</summary>
 
-- [GitHub](https://github.com/gt1/biobambam2) (👨‍💻 8 · 🔀 16 · 📥 11K · 📋 70 - 38% open · ⏱️ 12.03.2019):
+- [GitHub](https://github.com/gt1/biobambam2) (👨‍💻 8 · 🔀 17 · 📥 11K · 📋 70 - 38% open · ⏱️ 12.03.2019):
 
 	```
 	git clone https://github.com/gt1/biobambam2
@@ -215,15 +216,15 @@
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
 
-<details><summary><b><a href="https://github.com/vcflib/vcflib">vcflib</a></b> (🥇19 ·  ⭐ 410) - C++ library and cmdline tools for parsing and manipulating VCF files.</summary>
+<details><summary><b><a href="https://github.com/vcflib/vcflib">vcflib</a></b> (🥇18 ·  ⭐ 410 · 📉) - C++ library and cmdline tools for parsing and manipulating VCF files.</summary>
 
-- [GitHub](https://github.com/vcflib/vcflib) (👨‍💻 67 · 🔀 180 · 📥 1.3K · 📋 210 - 9% open · ⏱️ 17.02.2021):
+- [GitHub](https://github.com/vcflib/vcflib) (👨‍💻 67 · 🔀 180 · 📥 1.3K · 📋 210 - 10% open · ⏱️ 17.02.2021):
 
 	```
 	git clone https://github.com/vcflib/vcflib
 	```
 </details>
-<details><summary><b><a href="https://github.com/samtools/bcftools">bcftools</a></b> (🥇19 ·  ⭐ 360) - This is the official development repository for BCFtools. To compile, the..</summary>
+<details><summary><b><a href="https://github.com/samtools/bcftools">bcftools</a></b> (🥇18 ·  ⭐ 360 · 📉) - This is the official development repository for BCFtools. To compile, the..</summary>
 
 - [GitHub](https://github.com/samtools/bcftools) (👨‍💻 46 · 🔀 160 · 📥 290K · 📋 1.2K - 15% open · ⏱️ 25.02.2021):
 
@@ -247,9 +248,9 @@
 	git clone https://github.com/brentp/vcfanno
 	```
 </details>
-<details><summary><b><a href="https://github.com/Illumina/hap.py">hap.py</a></b> (🥉11 ·  ⭐ 250) - Haplotype VCF comparison tools.</summary>
+<details><summary><b><a href="https://github.com/Illumina/hap.py">hap.py</a></b> (🥉12 ·  ⭐ 250 · 📈) - Haplotype VCF comparison tools.</summary>
 
-- [GitHub](https://github.com/Illumina/hap.py) (👨‍💻 18 · 🔀 78 · 📥 50 · 📋 120 - 56% open · ⏱️ 13.02.2020):
+- [GitHub](https://github.com/Illumina/hap.py) (👨‍💻 19 · 🔀 78 · 📥 50 · 📋 120 - 55% open · ⏱️ 01.03.2021):
 
 	```
 	git clone https://github.com/Illumina/hap.py
@@ -271,7 +272,7 @@
 </details>
 <details><summary><b><a href="https://github.com/marcelm/cutadapt">cutadapt</a></b> (🥈15 ·  ⭐ 340) - Cutadapt removes adapter sequences from sequencing reads.</summary>
 
-- [GitHub](https://github.com/marcelm/cutadapt) (👨‍💻 26 · 🔀 98 · 📦 190 · 📋 460 - 3% open · ⏱️ 23.02.2021):
+- [GitHub](https://github.com/marcelm/cutadapt) (👨‍💻 26 · 🔀 98 · 📦 190 · 📋 470 - 4% open · ⏱️ 23.02.2021):
 
 	```
 	git clone https://github.com/marcelm/cutadapt
@@ -315,7 +316,7 @@
 	git clone https://github.com/marbl/canu
 	```
 </details>
-<details><summary><b><a href="https://github.com/bcgsc/abyss">abyss</a></b> (🥈18 ·  ⭐ 220) - Assemble large genomes using short reads.</summary>
+<details><summary><b><a href="https://github.com/bcgsc/abyss">abyss</a></b> (🥈17 ·  ⭐ 220) - Assemble large genomes using short reads.</summary>
 
 - [GitHub](https://github.com/bcgsc/abyss) (👨‍💻 48 · 🔀 74 · 📥 26K · 📋 290 - 1% open · ⏱️ 02.12.2020):
 
@@ -329,6 +330,14 @@
 
 	```
 	git clone https://github.com/ruanjue/wtdbg2
+	```
+</details>
+<details><summary><b><a href="https://github.com/chhylp123/hifiasm">hifiasm</a></b> (🥈14 ·  ⭐ 130 · ➕) - Hifiasm: a haplotype-resolved assembler for accurate Hifi reads.</summary>
+
+- [GitHub](https://github.com/chhylp123/hifiasm) (👨‍💻 3 · 🔀 18 · 📥 370 · 📋 70 - 27% open · ⏱️ 14.02.2021):
+
+	```
+	git clone https://github.com/chhylp123/hifiasm
 	```
 </details>
 <details><summary><b><a href="https://github.com/aquaskyline/SOAPdenovo2">SOAPdenovo2</a></b> (🥉13 ·  ⭐ 150) - Next generation sequencing reads de novo assembler.</summary>
@@ -349,7 +358,7 @@
 </details>
 <details><summary><b><a href="https://github.com/GATB/minia">minia</a></b> (🥉12 ·  ⭐ 59) - Minia is a short-read assembler based on a de Bruijn graph.</summary>
 
-- [GitHub](https://github.com/GATB/minia) (👨‍💻 10 · 🔀 9 · 📥 5K · 📋 24 - 20% open · ⏱️ 07.06.2020):
+- [GitHub](https://github.com/GATB/minia) (👨‍💻 10 · 🔀 9 · 📥 5.1K · 📋 24 - 20% open · ⏱️ 07.06.2020):
 
 	```
 	git clone https://github.com/GATB/minia
@@ -363,7 +372,7 @@
 
 <details><summary><b><a href="https://github.com/lh3/minimap2">minimap2</a></b> (🥇19 ·  ⭐ 900) - A versatile pairwise aligner for genomic and spliced nucleotide sequences.</summary>
 
-- [GitHub](https://github.com/lh3/minimap2) (👨‍💻 28 · 🔀 240 · 📥 42K · 📦 75 · 📋 650 - 8% open · ⏱️ 15.02.2021):
+- [GitHub](https://github.com/lh3/minimap2) (👨‍💻 28 · 🔀 240 · 📥 42K · 📦 75 · 📋 660 - 9% open · ⏱️ 15.02.2021):
 
 	```
 	git clone https://github.com/lh3/minimap2
@@ -371,13 +380,13 @@
 </details>
 <details><summary><b><a href="https://github.com/BenLangmead/bowtie2">bowtie2</a></b> (🥇19 ·  ⭐ 360) - A fast and sensitive gapped read aligner.</summary>
 
-- [GitHub](https://github.com/BenLangmead/bowtie2) (👨‍💻 32 · 🔀 120 · 📥 36K · 📋 290 - 29% open · ⏱️ 03.01.2021):
+- [GitHub](https://github.com/BenLangmead/bowtie2) (👨‍💻 32 · 🔀 120 · 📥 37K · 📋 290 - 29% open · ⏱️ 03.01.2021):
 
 	```
 	git clone https://github.com/BenLangmead/bowtie2
 	```
 </details>
-<details><summary><b><a href="https://github.com/lh3/bwa">bwa</a></b> (🥈18 ·  ⭐ 950) - Burrow-Wheeler Aligner for short-read alignment (see minimap2 for long-read..</summary>
+<details><summary><b><a href="https://github.com/lh3/bwa">bwa</a></b> (🥈18 ·  ⭐ 960) - Burrow-Wheeler Aligner for short-read alignment (see minimap2 for long-read..</summary>
 
 - [GitHub](https://github.com/lh3/bwa) (👨‍💻 31 · 🔀 440 · 📥 50K · 📋 210 - 60% open · ⏱️ 23.02.2021):
 
@@ -387,7 +396,7 @@
 </details>
 <details><summary><b><a href="https://github.com/alexdobin/STAR">STAR</a></b> (🥈17 ·  ⭐ 1K) - RNA-seq aligner.</summary>
 
-- [GitHub](https://github.com/alexdobin/STAR) (👨‍💻 37 · 🔀 290 · 📥 350 · 📋 1.1K - 26% open · ⏱️ 20.02.2021):
+- [GitHub](https://github.com/alexdobin/STAR) (👨‍💻 37 · 🔀 290 · 📥 350 · 📋 1.1K - 26% open · ⏱️ 01.03.2021):
 
 	```
 	git clone https://github.com/alexdobin/STAR
@@ -403,7 +412,7 @@
 </details>
 <details><summary><b><a href="https://github.com/bwa-mem2/bwa-mem2">bwa-mem2</a></b> (🥉15 ·  ⭐ 400) - The next version of bwa-mem.</summary>
 
-- [GitHub](https://github.com/bwa-mem2/bwa-mem2) (👨‍💻 9 · 🔀 47 · 📥 5.4K · 📋 110 - 16% open · ⏱️ 18.02.2021):
+- [GitHub](https://github.com/bwa-mem2/bwa-mem2) (👨‍💻 9 · 🔀 48 · 📥 5.4K · 📋 110 - 16% open · ⏱️ 18.02.2021):
 
 	```
 	git clone https://github.com/bwa-mem2/bwa-mem2
@@ -433,7 +442,7 @@
 	git clone https://github.com/DaehwanKimLab/tophat
 	```
 </details>
-<details><summary><b><a href="https://github.com/PacificBiosciences/pbmm2">pbmm2</a></b> (🥉10 ·  ⭐ 75) - A minimap2 frontend for PacBio native data formats.</summary>
+<details><summary><b><a href="https://github.com/PacificBiosciences/pbmm2">pbmm2</a></b> (🥉9 ·  ⭐ 75) - A minimap2 frontend for PacBio native data formats.</summary>
 
 - [GitHub](https://github.com/PacificBiosciences/pbmm2) (👨‍💻 10 · 🔀 15 · ⏱️ 22.09.2020):
 
@@ -449,7 +458,7 @@
 
 <details><summary><b><a href="https://github.com/google/deepvariant">deepvariant</a></b> (🥇20 ·  ⭐ 2.2K) - DeepVariant is an analysis pipeline that uses a deep neural network to..</summary>
 
-- [GitHub](https://github.com/google/deepvariant) (👨‍💻 19 · 🔀 530 · 📥 3K · ⏱️ 14.12.2020):
+- [GitHub](https://github.com/google/deepvariant) (👨‍💻 19 · 🔀 540 · 📥 3K · 📋 380 - 0% open · ⏱️ 14.12.2020):
 
 	```
 	git clone https://github.com/google/deepvariant
@@ -481,13 +490,13 @@
 </details>
 <details><summary><b><a href="https://github.com/AstraZeneca-NGS/VarDict">VarDict</a></b> (🥈13 ·  ⭐ 140) - VarDict.</summary>
 
-- [GitHub](https://github.com/AstraZeneca-NGS/VarDict) (👨‍💻 21 · 🔀 50 · 📋 93 - 16% open · ⏱️ 25.01.2021):
+- [GitHub](https://github.com/AstraZeneca-NGS/VarDict) (👨‍💻 21 · 🔀 50 · 📋 93 - 15% open · ⏱️ 25.01.2021):
 
 	```
 	git clone https://github.com/AstraZeneca-NGS/VarDict
 	```
 </details>
-<details><summary><b><a href="https://github.com/bioinform/neusomatic">neusomatic</a></b> (🥈13 ·  ⭐ 120) - NeuSomatic: Deep convolutional neural networks for accurate somatic..</summary>
+<details><summary><b><a href="https://github.com/bioinform/neusomatic">neusomatic</a></b> (🥈13 ·  ⭐ 120 · 💤) - NeuSomatic: Deep convolutional neural networks for accurate somatic..</summary>
 
 - [GitHub](https://github.com/bioinform/neusomatic) (👨‍💻 25 · 🔀 37 · 📋 39 - 33% open · ⏱️ 28.02.2020):
 
@@ -551,7 +560,7 @@
 </details>
 <details><summary><b><a href="https://github.com/Illumina/manta">manta</a></b> (🥇16 ·  ⭐ 270 · 💤) - Structural variant and indel caller for mapped sequencing data.</summary>
 
-- [GitHub](https://github.com/Illumina/manta) (👨‍💻 22 · 🔀 84 · 📥 22K · 📋 250 - 33% open · ⏱️ 17.07.2019):
+- [GitHub](https://github.com/Illumina/manta) (👨‍💻 22 · 🔀 85 · 📥 22K · 📋 250 - 33% open · ⏱️ 17.07.2019):
 
 	```
 	git clone https://github.com/Illumina/manta
@@ -573,7 +582,7 @@
 	git clone https://github.com/brentp/smoove
 	```
 </details>
-<details><summary><b><a href="https://github.com/fritzsedlazeck/Sniffles">Sniffles</a></b> (🥈14 ·  ⭐ 240) - Structural variation caller using third generation sequencing.</summary>
+<details><summary><b><a href="https://github.com/fritzsedlazeck/Sniffles">Sniffles</a></b> (🥈13 ·  ⭐ 240) - Structural variation caller using third generation sequencing.</summary>
 
 - [GitHub](https://github.com/fritzsedlazeck/Sniffles) (👨‍💻 10 · 🔀 46 · 📋 250 - 16% open · ⏱️ 18.12.2020):
 
@@ -581,7 +590,15 @@
 	git clone https://github.com/fritzsedlazeck/Sniffles
 	```
 </details>
-<details><summary><b><a href="https://github.com/eldariont/svim">svim</a></b> (🥉13 ·  ⭐ 76) - Structural Variant Identification Method using Long Reads.</summary>
+<details><summary><b><a href="https://github.com/abyzovlab/CNVnator">cnvnator</a></b> (🥈13 ·  ⭐ 140 · ➕) - a tool for CNV discovery and genotyping from depth-of-coverage by mapped..</summary>
+
+- [GitHub](https://github.com/abyzovlab/CNVnator) (👨‍💻 19 · 🔀 52 · 📥 12K · 📋 210 - 73% open · ⏱️ 07.07.2020):
+
+	```
+	git clone https://github.com/abyzovlab/cnvnator
+	```
+</details>
+<details><summary><b><a href="https://github.com/eldariont/svim">svim</a></b> (🥈13 ·  ⭐ 76) - Structural Variant Identification Method using Long Reads.</summary>
 
 - [GitHub](https://github.com/eldariont/svim) (🔀 8 · 📦 1 · 📋 45 - 6% open · ⏱️ 18.01.2021):
 
@@ -589,7 +606,7 @@
 	git clone https://github.com/eldariont/svim
 	```
 </details>
-<details><summary><b><a href="https://github.com/OpenGene/GeneFuse">GeneFuse</a></b> (🥉13 ·  ⭐ 68) - Gene fusion detection and visualization.</summary>
+<details><summary><b><a href="https://github.com/OpenGene/GeneFuse">GeneFuse</a></b> (🥈13 ·  ⭐ 68) - Gene fusion detection and visualization.</summary>
 
 - [GitHub](https://github.com/OpenGene/GeneFuse) (👨‍💻 3 · 🔀 45 · 📋 27 - 88% open · ⏱️ 17.09.2020):
 
@@ -597,7 +614,7 @@
 	git clone https://github.com/OpenGene/GeneFuse
 	```
 </details>
-<details><summary><b><a href="https://github.com/tjiangHIT/cuteSV">cuteSV</a></b> (🥉13 ·  ⭐ 62) - Long read based human genomic structural variation detection with cuteSV.</summary>
+<details><summary><b><a href="https://github.com/tjiangHIT/cuteSV">cuteSV</a></b> (🥈13 ·  ⭐ 62) - Long read based human genomic structural variation detection with cuteSV.</summary>
 
 - [GitHub](https://github.com/tjiangHIT/cuteSV) (👨‍💻 4 · 🔀 6 · 📋 22 - 4% open · ⏱️ 23.01.2021):
 
@@ -607,7 +624,7 @@
 </details>
 <details><summary><b><a href="https://github.com/WGLab/RepeatHMM">RepeatHMM</a></b> (🥉12 ·  ⭐ 22) - a hidden Markov model to infer simple repeats from genome sequences.</summary>
 
-- [GitHub](https://github.com/WGLab/RepeatHMM) (👨‍💻 10 · 🔀 12 · 📥 44 · 📋 36 - 13% open · ⏱️ 19.02.2021):
+- [GitHub](https://github.com/WGLab/RepeatHMM) (👨‍💻 10 · 🔀 12 · 📥 46 · 📋 36 - 13% open · ⏱️ 19.02.2021):
 
 	```
 	git clone https://github.com/WGLab/RepeatHMM
@@ -621,17 +638,9 @@
 	git clone https://github.com/genome/pindel
 	```
 </details>
-<details><summary><b><a href="https://github.com/PacificBiosciences/pbsv">pbsv</a></b> (🥉11 ·  ⭐ 49) - pbsv - PacBio structural variant (SV) calling and analysis tools.</summary>
-
-- [GitHub](https://github.com/PacificBiosciences/pbsv) (👨‍💻 4 · 🔀 8 · ⏱️ 15.10.2020):
-
-	```
-	git clone https://github.com/PacificBiosciences/pbsv
-	```
-</details>
 <details><summary><b><a href="https://github.com/Illumina/ExpansionHunterDenovo">ExpansionHunterDenovo</a></b> (🥉11 ·  ⭐ 32) - A suite of tools for detecting expansions of short tandem..</summary>
 
-- [GitHub](https://github.com/Illumina/ExpansionHunterDenovo) (👨‍💻 5 · 🔀 10 · 📥 440 · 📋 18 - 66% open · ⏱️ 16.02.2021):
+- [GitHub](https://github.com/Illumina/ExpansionHunterDenovo) (👨‍💻 5 · 🔀 10 · 📥 450 · 📋 18 - 66% open · ⏱️ 16.02.2021):
 
 	```
 	git clone https://github.com/Illumina/ExpansionHunterDenovo
@@ -643,6 +652,14 @@
 
 	```
 	git clone https://github.com/genome/breakdancer
+	```
+</details>
+<details><summary><b><a href="https://github.com/PacificBiosciences/pbsv">pbsv</a></b> (🥉10 ·  ⭐ 49) - pbsv - PacBio structural variant (SV) calling and analysis tools.</summary>
+
+- [GitHub](https://github.com/PacificBiosciences/pbsv) (👨‍💻 4 · 🔀 9 · ⏱️ 15.10.2020):
+
+	```
+	git clone https://github.com/PacificBiosciences/pbsv
 	```
 </details>
 <br>
@@ -659,20 +676,20 @@
 	git clone https://github.com/Ensembl/ensembl-vep
 	```
 </details>
-<details><summary><b><a href="https://github.com/Illumina/SpliceAI">SpliceAI</a></b> (🥈12 ·  ⭐ 170) - A deep learning-based tool to identify splice variants.</summary>
-
-- [GitHub](https://github.com/Illumina/SpliceAI) (👨‍💻 11 · 🔀 66 · 📦 4 · ⏱️ 15.05.2020):
-
-	```
-	git clone https://github.com/Illumina/SpliceAI
-	```
-</details>
 <details><summary><b><a href="https://github.com/charite/jannovar">jannovar</a></b> (🥈12 ·  ⭐ 39 · 💤) - Annotation of VCF variants with functional impact and from databases..</summary>
 
 - [GitHub](https://github.com/charite/jannovar) (👨‍💻 21 · 🔀 28 · 📥 200 · 📦 1 · 📋 240 - 16% open · ⏱️ 13.11.2019):
 
 	```
 	git clone https://github.com/charite/jannovar
+	```
+</details>
+<details><summary><b><a href="https://github.com/Illumina/SpliceAI">SpliceAI</a></b> (🥈11 ·  ⭐ 170) - A deep learning-based tool to identify splice variants.</summary>
+
+- [GitHub](https://github.com/Illumina/SpliceAI) (👨‍💻 11 · 🔀 66 · 📦 4 · ⏱️ 15.05.2020):
+
+	```
+	git clone https://github.com/Illumina/SpliceAI
 	```
 </details>
 <details><summary><b><a href="https://github.com/pcingola/SnpEff">SnpEff</a></b> (🥉10 ·  ⭐ 120) - </summary>
@@ -685,7 +702,7 @@
 </details>
 <details><summary><b><a href="https://github.com/WGLab/InterVar">InterVar</a></b> (🥉10 ·  ⭐ 110) - A bioinformatics software tool for clinical interpretation of genetic variants..</summary>
 
-- [GitHub](https://github.com/WGLab/InterVar) (👨‍💻 3 · 🔀 62 · 📋 52 - 48% open · ⏱️ 05.02.2021):
+- [GitHub](https://github.com/WGLab/InterVar) (👨‍💻 3 · 🔀 62 · 📋 52 - 48% open · ⏱️ 01.03.2021):
 
 	```
 	git clone https://github.com/WGLab/InterVar
@@ -693,7 +710,7 @@
 </details>
 <details><summary><b><a href="https://github.com/lgmgeo/AnnotSV">AnnotSV</a></b> (🥉8 ·  ⭐ 58) - Annotation and Ranking of Structural Variation.</summary>
 
-- [GitHub](https://github.com/lgmgeo/AnnotSV) (👨‍💻 2 · 🔀 11 · 📋 38 - 10% open · ⏱️ 12.02.2021):
+- [GitHub](https://github.com/lgmgeo/AnnotSV) (👨‍💻 2 · 🔀 11 · 📋 40 - 10% open · ⏱️ 12.02.2021):
 
 	```
 	git clone https://github.com/lgmgeo/AnnotSV
@@ -745,13 +762,13 @@
 
 <details><summary><b><a href="https://github.com/openvax/mhcflurry">mhcflurry</a></b> (🥇19 ·  ⭐ 110) - Peptide-MHC I binding affinity prediction.</summary>
 
-- [GitHub](https://github.com/openvax/mhcflurry) (👨‍💻 12 · 🔀 32 · 📥 44K · 📦 15 · 📋 100 - 2% open · ⏱️ 07.01.2021):
+- [GitHub](https://github.com/openvax/mhcflurry) (👨‍💻 12 · 🔀 33 · 📥 44K · 📦 15 · 📋 100 - 2% open · ⏱️ 07.01.2021):
 
 	```
 	git clone https://github.com/openvax/mhcflurry
 	```
 </details>
-<details><summary><b><a href="https://github.com/FRED-2/OptiType">OptiType</a></b> (🥈13 ·  ⭐ 120) - Precision HLA typing from next-generation sequencing data.</summary>
+<details><summary><b><a href="https://github.com/FRED-2/OptiType">OptiType</a></b> (🥈12 ·  ⭐ 120) - Precision HLA typing from next-generation sequencing data.</summary>
 
 - [GitHub](https://github.com/FRED-2/OptiType) (👨‍💻 13 · 🔀 65 · 📋 88 - 31% open · ⏱️ 15.09.2020):
 
@@ -759,7 +776,7 @@
 	git clone https://github.com/FRED-2/OptiType
 	```
 </details>
-<details><summary><b><a href="https://github.com/MathOnco/NeoPredPipe">NeoPredPipe</a></b> (🥉11 ·  ⭐ 57) - Neoantigens prediction pipeline for multi- or single-region vcf files using..</summary>
+<details><summary><b><a href="https://github.com/MathOnco/NeoPredPipe">NeoPredPipe</a></b> (🥉10 ·  ⭐ 58) - Neoantigens prediction pipeline for multi- or single-region vcf files using..</summary>
 
 - [GitHub](https://github.com/MathOnco/NeoPredPipe) (👨‍💻 4 · 🔀 15 · 📋 24 - 12% open · ⏱️ 26.12.2020):
 
@@ -767,7 +784,7 @@
 	git clone https://github.com/MathOnco/NeoPredPipe
 	```
 </details>
-<details><summary><b><a href="https://github.com/ANHIG/IMGTHLA">IMGTHLA</a></b> (🥉9 ·  ⭐ 82) - Github for files currently published in the IPD-IMGT/HLA FTP Directory hosted at..</summary>
+<details><summary><b><a href="https://github.com/ANHIG/IMGTHLA">IMGTHLA</a></b> (🥉9 ·  ⭐ 85) - Github for files currently published in the IPD-IMGT/HLA FTP Directory hosted at..</summary>
 
 - [GitHub](https://github.com/ANHIG/IMGTHLA) (👨‍💻 4 · 🔀 36 · 📋 82 - 1% open · ⏱️ 17.02.2021):
 
@@ -821,7 +838,7 @@
 	git clone https://github.com/GSLBiotech/clustal-omega
 	```
 </details>
-<details><summary><b><a href="https://github.com/GSLBiotech/t-coffee">t-coffee</a></b> (🥈6 ·  ⭐ 3) - Tools for multiple alignments of DNA, RNA, and Proteins.</summary>
+<details><summary><b><a href="https://github.com/GSLBiotech/t-coffee">t-coffee</a></b> (🥈6 ·  ⭐ 3 · 💤) - Tools for multiple alignments of DNA, RNA, and Proteins.</summary>
 
 - [GitHub](https://github.com/GSLBiotech/t-coffee) (👨‍💻 5 · ⏱️ 12.02.2020):
 
@@ -861,7 +878,7 @@
 </details>
 <details><summary><b><a href="https://github.com/igvteam/igv.js">igv.js</a></b> (🥈21 ·  ⭐ 420) - Embeddable genomic visualization component based on the Integrative Genomics..</summary>
 
-- [GitHub](https://github.com/igvteam/igv.js) (👨‍💻 50 · 🔀 140 · 📦 88 · 📋 820 - 5% open · ⏱️ 17.02.2021):
+- [GitHub](https://github.com/igvteam/igv.js) (👨‍💻 49 · 🔀 140 · 📦 88 · 📋 820 - 5% open · ⏱️ 02.03.2021):
 
 	```
 	git clone https://github.com/igvteam/igv.js
@@ -869,26 +886,26 @@
 </details>
 <details><summary><b><a href="https://github.com/igvteam/igv">igv</a></b> (🥉16 ·  ⭐ 420) - Integrative Genomics Viewer. Fast, efficient, scalable visualization tool for..</summary>
 
-- [GitHub](https://github.com/igvteam/igv) (👨‍💻 53 · 🔀 190 · 📋 740 - 8% open · ⏱️ 23.02.2021):
+- [GitHub](https://github.com/igvteam/igv) (👨‍💻 53 · 🔀 200 · 📋 740 - 8% open · ⏱️ 23.02.2021):
 
 	```
 	git clone https://github.com/igvteam/igv
 	```
 </details>
-<details><summary><b><a href="https://github.com/Edinburgh-Genome-Foundry/DnaFeaturesViewer">DnaFeaturesViewer</a></b> (🥉16 ·  ⭐ 250) - Python library to plot DNA sequence features (e.g. from Genbank..</summary>
-
-- [GitHub](https://github.com/Edinburgh-Genome-Foundry/DnaFeaturesViewer) (👨‍💻 5 · 🔀 43 · 📋 47 - 48% open · ⏱️ 20.09.2020):
-
-	```
-	git clone https://github.com/Edinburgh-Genome-Foundry/DnaFeaturesViewer
-	```
-</details>
-<details><summary><b><a href="https://github.com/deeptools/pyGenomeTracks">pyGenomeTracks</a></b> (🥉15 ·  ⭐ 430) - python module to plot beautiful and highly customizable genome browser..</summary>
+<details><summary><b><a href="https://github.com/deeptools/pyGenomeTracks">pyGenomeTracks</a></b> (🥉15 ·  ⭐ 440) - python module to plot beautiful and highly customizable genome browser..</summary>
 
 - [GitHub](https://github.com/deeptools/pyGenomeTracks) (👨‍💻 11 · 🔀 72 · 📦 4 · 📋 130 - 9% open · ⏱️ 12.11.2020):
 
 	```
 	git clone https://github.com/deeptools/pyGenomeTracks
+	```
+</details>
+<details><summary><b><a href="https://github.com/Edinburgh-Genome-Foundry/DnaFeaturesViewer">DnaFeaturesViewer</a></b> (🥉15 ·  ⭐ 250) - Python library to plot DNA sequence features (e.g. from Genbank..</summary>
+
+- [GitHub](https://github.com/Edinburgh-Genome-Foundry/DnaFeaturesViewer) (👨‍💻 5 · 🔀 44 · 📋 47 - 48% open · ⏱️ 20.09.2020):
+
+	```
+	git clone https://github.com/Edinburgh-Genome-Foundry/DnaFeaturesViewer
 	```
 </details>
 <br>
@@ -915,7 +932,7 @@
 </details>
 <details><summary><b><a href="https://github.com/divonlan/genozip">genozip</a></b> (🥇11 ·  ⭐ 50) - Compressor for genomic files (FASTQ, SAM/BAM, VCF, FASTA, GVF, 23andMe...), up..</summary>
 
-- [GitHub](https://github.com/divonlan/genozip) (👨‍💻 5 · 🔀 2 · ⏱️ 26.02.2021):
+- [GitHub](https://github.com/divonlan/genozip) (👨‍💻 5 · 🔀 2 · 📋 4 - 25% open · ⏱️ 01.03.2021):
 
 	```
 	git clone https://github.com/divonlan/genozip
@@ -935,15 +952,15 @@
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
 
-<details><summary><b><a href="https://github.com/libnano/primer3-py">primer3-py</a></b> (🥇16 ·  ⭐ 83 · ➕) - Simple oligo analysis and primer design.</summary>
+<details><summary><b><a href="https://github.com/libnano/primer3-py">primer3-py</a></b> (🥇16 ·  ⭐ 83) - Simple oligo analysis and primer design.</summary>
 
-- [GitHub](https://github.com/libnano/primer3-py) (👨‍💻 4 · 🔀 24 · 📦 86 · 📋 33 - 21% open · ⏱️ 10.05.2020):
+- [GitHub](https://github.com/libnano/primer3-py) (👨‍💻 4 · 🔀 24 · 📦 87 · 📋 34 - 23% open · ⏱️ 10.05.2020):
 
 	```
 	git clone https://github.com/libnano/primer3-py
 	```
 </details>
-<details><summary><b><a href="https://github.com/primer3-org/primer3">primer3</a></b> (🥉11 ·  ⭐ 97 · ➕) - Primer3 is a command line tool to select primers for polymerase chain..</summary>
+<details><summary><b><a href="https://github.com/primer3-org/primer3">primer3</a></b> (🥉11 ·  ⭐ 97) - Primer3 is a command line tool to select primers for polymerase chain reaction..</summary>
 
 - [GitHub](https://github.com/primer3-org/primer3) (👨‍💻 7 · 🔀 31 · 📥 290 · 📋 35 - 31% open · ⏱️ 03.05.2020):
 
@@ -951,12 +968,50 @@
 	git clone https://github.com/primer3-org/primer3
 	```
 </details>
-<details><summary><b><a href="https://github.com/quwubin/MFEprimer-3.0">MFEprimer-3.0</a></b> (🥉10 ·  ⭐ 16 · 💤) - PCR Primer Quality Control.</summary>
+<details><summary><b><a href="https://github.com/quwubin/MFEprimer-3.0">MFEprimer-3.0</a></b> (🥉9 ·  ⭐ 16 · 💤) - PCR Primer Quality Control.</summary>
 
 - [GitHub](https://github.com/quwubin/MFEprimer-3.0) (🔀 7 · 📥 1.5K · 📋 6 - 16% open · ⏱️ 17.10.2019):
 
 	```
 	git clone https://github.com/quwubin/MFEprimer-3.0
+	```
+</details>
+<br>
+
+## LiftOver
+
+<a href="#contents"><img align="right" width="15" height="15" src="https://bit.ly/382Vmvi" alt="Back to top"></a>
+
+<details><summary><b><a href="https://github.com/agshumate/Liftoff">Liftoff</a></b> (🥇14 ·  ⭐ 130) - An accurate GFF3/GTF lift over pipeline.</summary>
+
+- [GitHub](https://github.com/agshumate/Liftoff) (👨‍💻 8 · 🔀 16 · 📦 3 · 📋 53 - 15% open · ⏱️ 12.02.2021):
+
+	```
+	git clone https://github.com/agshumate/Liftoff
+	```
+</details>
+<details><summary><b><a href="https://github.com/liguowang/CrossMap">CrossMap</a></b> (🥈11 ·  ⭐ 12) - CrossMap is a python program to lift over genome coordinates from one genome..</summary>
+
+- [GitHub](https://github.com/liguowang/CrossMap) (👨‍💻 2 · 🔀 10 · 📦 11 · 📋 23 - 60% open · ⏱️ 14.01.2021):
+
+	```
+	git clone https://github.com/liguowang/CrossMap
+	```
+</details>
+<details><summary><b><a href="https://github.com/konstantint/pyliftover">pyliftover</a></b> (🥉10 ·  ⭐ 59 · 💤) - Pure-python implementation of UCSC liftOver genome coordinate conversion.</summary>
+
+- [GitHub](https://github.com/konstantint/pyliftover) (👨‍💻 2 · 🔀 11 · 📦 48 · 📋 13 - 15% open · ⏱️ 25.05.2019):
+
+	```
+	git clone https://github.com/konstantint/pyliftover
+	```
+</details>
+<details><summary><b><a href="https://github.com/jeremymcrae/liftover">liftover</a></b> (🥉10 ·  ⭐ 10 · ➕) - liftover for python, made fast with cython.</summary>
+
+- [GitHub](https://github.com/jeremymcrae/liftover) (👨‍💻 2 · 🔀 1 · 📦 2 · ⏱️ 16.02.2021):
+
+	```
+	git clone https://github.com/jeremymcrae/liftover
 	```
 </details>
 <br>
@@ -967,7 +1022,7 @@
 
 <details><summary><b><a href="https://github.com/biopython/biopython">biopython</a></b> (🥇24 ·  ⭐ 2.6K) - Official git repository for Biopython (originally converted from CVS).</summary>
 
-- [GitHub](https://github.com/biopython/biopython) (👨‍💻 370 · 🔀 1.2K · 📦 6.6K · 📋 1.2K - 27% open · ⏱️ 20.02.2021):
+- [GitHub](https://github.com/biopython/biopython) (👨‍💻 370 · 🔀 1.2K · 📦 6.6K · 📋 1.2K - 27% open · ⏱️ 26.02.2021):
 
 	```
 	git clone https://github.com/biopython/biopython
@@ -975,7 +1030,7 @@
 </details>
 <details><summary><b><a href="https://github.com/bioconda/bioconda-recipes">bioconda-recipes</a></b> (🥇19 ·  ⭐ 1.2K) - Conda recipes for the bioconda channel.</summary>
 
-- [GitHub](https://github.com/bioconda/bioconda-recipes) (👨‍💻 1.3K · 🔀 1.7K · 📋 1.4K - 18% open · ⏱️ 26.02.2021):
+- [GitHub](https://github.com/bioconda/bioconda-recipes) (👨‍💻 1.3K · 🔀 1.7K · 📋 1.4K - 18% open · ⏱️ 01.03.2021):
 
 	```
 	git clone https://github.com/bioconda/bioconda-recipes
@@ -1039,7 +1094,7 @@
 </details>
 <details><summary><b><a href="https://github.com/ncbi/sra-tools">sra-tools</a></b> (🥉14 ·  ⭐ 520) - SRA Tools.</summary>
 
-- [GitHub](https://github.com/ncbi/sra-tools) (👨‍💻 31 · 🔀 160 · 📋 460 - 12% open · ⏱️ 16.12.2020):
+- [GitHub](https://github.com/ncbi/sra-tools) (👨‍💻 31 · 🔀 160 · 📋 460 - 11% open · ⏱️ 16.12.2020):
 
 	```
 	git clone https://github.com/ncbi/sra-tools
@@ -1053,14 +1108,6 @@
 	git clone https://github.com/bioinformatics-centre/kaiju
 	```
 </details>
-<details><summary><b><a href="https://github.com/agshumate/Liftoff">Liftoff</a></b> (🥉14 ·  ⭐ 130) - An accurate GFF3/GTF lift over pipeline.</summary>
-
-- [GitHub](https://github.com/agshumate/Liftoff) (👨‍💻 8 · 🔀 16 · 📦 3 · 📋 53 - 15% open · ⏱️ 12.02.2021):
-
-	```
-	git clone https://github.com/agshumate/Liftoff
-	```
-</details>
 <details><summary><b><a href="https://github.com/WGLab/Phen2Gene">Phen2Gene</a></b> (🥉13 ·  ⭐ 23) - Phenotype driven gene prioritization for HPO.</summary>
 
 - [GitHub](https://github.com/WGLab/Phen2Gene) (👨‍💻 14 · 🔀 8 · 📥 670 · 📋 8 - 25% open · ⏱️ 12.01.2021):
@@ -1071,15 +1118,15 @@
 </details>
 <details><summary><b><a href="https://github.com/EddyRivasLab/hmmer">hmmer</a></b> (🥉12 ·  ⭐ 160) - HMMER: biological sequence analysis using profile HMMs.</summary>
 
-- [GitHub](https://github.com/EddyRivasLab/hmmer) (👨‍💻 18 · 🔀 41 · 📋 190 - 3% open · ⏱️ 27.11.2020):
+- [GitHub](https://github.com/EddyRivasLab/hmmer) (👨‍💻 18 · 🔀 41 · 📋 190 - 4% open · ⏱️ 27.11.2020):
 
 	```
 	git clone https://github.com/EddyRivasLab/hmmer
 	```
 </details>
-<details><summary><b><a href="https://github.com/comprna/SUPPA">SUPPA</a></b> (🥉11 ·  ⭐ 120 · ➕) - SUPPA2: Fast quantification of differential splicing.</summary>
+<details><summary><b><a href="https://github.com/comprna/SUPPA">SUPPA</a></b> (🥉11 ·  ⭐ 120) - SUPPA2: Fast quantification of differential splicing.</summary>
 
-- [GitHub](https://github.com/comprna/SUPPA) (👨‍💻 10 · 🔀 42 · 📋 110 - 16% open · ⏱️ 03.11.2020):
+- [GitHub](https://github.com/comprna/SUPPA) (👨‍💻 10 · 🔀 43 · 📋 110 - 17% open · ⏱️ 03.11.2020):
 
 	```
 	git clone https://github.com/comprna/SUPPA
@@ -1093,15 +1140,7 @@
 	git clone https://github.com/Illumina/GTCtoVCF
 	```
 </details>
-<details><summary><b><a href="https://github.com/liguowang/CrossMap">CrossMap</a></b> (🥉11 ·  ⭐ 12) - CrossMap is a python program to lift over genome coordinates from one genome..</summary>
-
-- [GitHub](https://github.com/liguowang/CrossMap) (👨‍💻 2 · 🔀 10 · 📦 11 · 📋 22 - 59% open · ⏱️ 14.01.2021):
-
-	```
-	git clone https://github.com/liguowang/CrossMap
-	```
-</details>
-<details><summary><b><a href="https://github.com/mutalyzer/mutalyzer">mutalyzer</a></b> (🥉10 ·  ⭐ 81) - HGVS variant nomenclature checker.</summary>
+<details><summary><b><a href="https://github.com/mutalyzer/mutalyzer">mutalyzer</a></b> (🥉10 ·  ⭐ 82) - HGVS variant nomenclature checker.</summary>
 
 - [GitHub](https://github.com/mutalyzer/mutalyzer) (👨‍💻 9 · 🔀 19 · 📋 320 - 38% open · ⏱️ 24.11.2020):
 
@@ -1109,28 +1148,28 @@
 	git clone https://github.com/mutalyzer/mutalyzer
 	```
 </details>
-<details><summary><b><a href="https://github.com/PharmGKB/PharmCAT">PharmCAT</a></b> (🥉10 ·  ⭐ 39) - The Pharmacogenomic Clinical Annotation Tool.</summary>
+<details><summary><b><a href="https://github.com/PharmGKB/PharmCAT">PharmCAT</a></b> (🥉10 ·  ⭐ 40) - The Pharmacogenomic Clinical Annotation Tool.</summary>
 
-- [GitHub](https://github.com/PharmGKB/PharmCAT) (👨‍💻 15 · 🔀 16 · 📥 1K · 📋 35 - 22% open · ⏱️ 09.09.2020):
+- [GitHub](https://github.com/PharmGKB/PharmCAT) (👨‍💻 15 · 🔀 16 · 📥 1K · 📋 35 - 20% open · ⏱️ 09.09.2020):
 
 	```
 	git clone https://github.com/PharmGKB/PharmCAT
 	```
 </details>
-<details><summary><b><a href="https://github.com/samtools/tabix">tabix</a></b> (🥉9 ·  ⭐ 81 · 💀) - Note: tabix and bgzip binaries are now part of the HTSlib project.</summary>
+<details><summary><b><a href="https://github.com/rmhubley/RepeatMasker">RepeatMasker</a></b> (🥉9 ·  ⭐ 73) - RepeatMasker is a program that screens DNA sequences for interspersed..</summary>
+
+- [GitHub](https://github.com/rmhubley/RepeatMasker) (👨‍💻 3 · 🔀 24 · 📋 88 - 31% open · ⏱️ 02.09.2020):
+
+	```
+	git clone https://github.com/rmhubley/RepeatMasker
+	```
+</details>
+<details><summary><b><a href="https://github.com/samtools/tabix">tabix</a></b> (🥉8 ·  ⭐ 81 · 💀) - Note: tabix and bgzip binaries are now part of the HTSlib project.</summary>
 
 - [GitHub](https://github.com/samtools/tabix) (👨‍💻 4 · 🔀 37 · 📋 13 - 53% open · ⏱️ 16.12.2013):
 
 	```
 	git clone https://github.com/samtools/tabix
-	```
-</details>
-<details><summary><b><a href="https://github.com/rmhubley/RepeatMasker">RepeatMasker</a></b> (🥉9 ·  ⭐ 73) - RepeatMasker is a program that screens DNA sequences for interspersed..</summary>
-
-- [GitHub](https://github.com/rmhubley/RepeatMasker) (👨‍💻 3 · 🔀 24 · 📋 87 - 32% open · ⏱️ 02.09.2020):
-
-	```
-	git clone https://github.com/rmhubley/RepeatMasker
 	```
 </details>
 <details><summary><b><a href="https://github.com/lh3/tabtk">tabtk</a></b> (🥉6 ·  ⭐ 53 · 💀) - Toolkit for processing TAB-delimited format.</summary>
