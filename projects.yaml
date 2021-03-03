@@ -11,7 +11,7 @@ categories:
   - category: "assembler"
     title: "Assembler"
   - category: "compression"
-    title: "Data Compression"
+    title: "Compression"
   - category: "liftover"
     title: "LiftOver"
   - category: "mhc-hla"
