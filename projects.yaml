@@ -27,7 +27,7 @@ categories:
   - category: "sequence-alignment"
     title: "Sequence Alignment"
   - category: "structural-variation"
-    title: "Structural Variation Caller"
+    title: "Structural Variant"
   - category: "bed-gtf-gff"
     title: "Tools for BED/GTF/GFF"
   - category: "fasta-fastq"
@@ -110,6 +110,10 @@ projects:
     show: True
   - name: genozip
     github_id: divonlan/genozip
+    category: compression
+    show: True
+  - name: DSRC
+    github_id: refresh-bio/DSRC
     category: compression
     show: True
   # sequence-alignment
@@ -216,6 +220,10 @@ projects:
     github_id: brentp/mosdepth
     category: sam-bam-cram
     show: True
+  - name: alfred
+    github_id: tobiasrausch/alfred
+    category: sam-bam-cram
+    show: True
   # fasta-fastq
   - name: seqtk
     github_id: lh3/seqtk
@@ -223,6 +231,10 @@ projects:
     show: True
   - name: Jellyfish
     github_id: gmarcais/Jellyfish
+    category: fasta-fastq
+    show: True
+  - name: KMC
+    github_id: refresh-bio/KMC
     category: fasta-fastq
     show: True
   - name: fastv
@@ -312,6 +324,10 @@ projects:
     github_id: Illumina/manta
     category: structural-variation
     show: True
+  - name: truvari
+    github_id: spiralgenetics/truvari
+    category: structural-variation
+    show: True
   - name: breakdancer
     github_id: genome/breakdancer
     category: structural-variation
@@ -326,6 +342,10 @@ projects:
     show: True
   - name: svim
     github_id: eldariont/svim
+    category: structural-variation
+    show: True
+  - name: SURVIVOR
+    github_id: fritzsedlazeck/SURVIVOR
     category: structural-variation
     show: True
   - name: cuteSV
@@ -344,8 +364,12 @@ projects:
     github_id: dellytools/delly
     category: structural-variation
     show: True
-  - name: cnvnator
-    github_id: abyzovlab/cnvnator
+  - name: lumpy-sv
+    github_id: arq5x/lumpy-sv
+    category: structural-variation
+    show: True
+  - name: CNVnator
+    github_id: abyzovlab/CNVnator
     category: structural-variation
     show: True
   - name: smoove
@@ -359,6 +383,10 @@ projects:
   # assembler
   - name: velvet
     github_id: dzerbino/velvet
+    category: assembler
+    show: True
+  - name: smartdenovo
+    github_id: ruanjue/smartdenovo
     category: assembler
     show: True
   - name: hifiasm
@@ -385,9 +413,21 @@ projects:
     github_id: aquaskyline/SOAPdenovo2
     category: assembler
     show: True
+  - name: pb-assembly
+    github_id: PacificBiosciences/pb-assembly
+    category: assembler
+    show: True
   # mhc-hla
   - name: mhcflurry
     github_id: openvax/mhcflurry
+    category: mhc-hla
+    show: True
+  - name: HLA-LA
+    github_id: DiltheyLab/HLA-LA
+    category: mhc-hla
+    show: True
+  - name: prohlatype
+    github_id: hammerlab/prohlatype
     category: mhc-hla
     show: True
   - name: IMGTHLA
@@ -425,6 +465,14 @@ projects:
     show: True
   - name: strelka
     github_id: Illumina/strelka
+    category: variant-caller
+    show: True
+  - name: lancet
+    github_id: nygenome/lancet
+    category: variant-caller
+    show: True
+  - name: MuSE
+    github_id: danielfan/MuSE
     category: variant-caller
     show: True
   - name: freebayes
@@ -497,6 +545,10 @@ projects:
     github_id: Edinburgh-Genome-Foundry/DnaFeaturesViewer
     category: visualization
     show: True
+  - name: samplot
+    github_id: ryanlayer/samplot
+    category: visualization
+    show: True
   # other
   - name: GTCtoVCF
     github_id: Illumina/GTCtoVCF
@@ -558,4 +610,13 @@ projects:
     show: True
   - name: SUPPA
     github_id: comprna/SUPPA
+    show: True
+  - name: SMNCopyNumberCaller
+    github_id: Illumina/SMNCopyNumberCaller
+    show: True
+  - name: SMAca
+    github_id: babelomics/SMAca
+    show: True
+  - name: bioawk
+    github_id: lh3/bioawk
     show: True
