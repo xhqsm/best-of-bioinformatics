@@ -30,15 +30,15 @@ with open("projects.yaml", encoding="utf-8") as f:
             in_yaml.add(github_id)
 
 in_github = set()
-i = 1
+i = 0
 url = "https://github.com/xhqsm?tab=stars"
 while url:
-    print("try", i, url)
+    i += 1
+    print(i, url)
     try:
         stars, url = get_stars(url)
         in_github.update(stars)
     except Exception as e:
-        i += 1
         time.sleep(1)
 in_github.remove("xhqsm/best-of-bioinformatics")
 

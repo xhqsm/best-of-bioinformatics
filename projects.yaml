@@ -26,6 +26,8 @@ categories:
     title: "QC for FASTQ"
   - category: "sequence-alignment"
     title: "Sequence Alignment"
+  - category: "str"
+    title: "Short Tandem Repeats"
   - category: "structural-variation"
     title: "Structural Variant"
   - category: "bed-gtf-gff"
@@ -44,6 +46,23 @@ categories:
     title: "Visualization"
 
 projects:
+  # str
+  - name: RepeatHMM
+    github_id: WGLab/RepeatHMM
+    category: str
+    show: True
+  - name: ExpansionHunterDenovo
+    github_id: Illumina/ExpansionHunterDenovo
+    category: str
+    show: True
+  - name: ExpansionHunter
+    github_id: Illumina/ExpansionHunter
+    category: str
+    show: True
+  - name: HipSTR
+    github_id: tfwillems/HipSTR
+    category: str
+    show: True
   # liftover
   - name: Liftoff
     github_id: agshumate/Liftoff
@@ -224,6 +243,10 @@ projects:
     github_id: tobiasrausch/alfred
     category: sam-bam-cram
     show: True
+  - name: bamdst
+    github_id: shiquan/bamdst
+    category: sam-bam-cram
+    show: True
   # fasta-fastq
   - name: seqtk
     github_id: lh3/seqtk
@@ -332,10 +355,6 @@ projects:
     github_id: genome/breakdancer
     category: structural-variation
     show: True
-  - name: ExpansionHunterDenovo
-    github_id: Illumina/ExpansionHunterDenovo
-    category: structural-variation
-    show: True
   - name: pindel
     github_id: genome/pindel
     category: structural-variation
@@ -350,10 +369,6 @@ projects:
     show: True
   - name: cuteSV
     github_id: tjiangHIT/cuteSV
-    category: structural-variation
-    show: True
-  - name: RepeatHMM
-    github_id: WGLab/RepeatHMM
     category: structural-variation
     show: True
   - name: cnvkit
@@ -619,4 +634,10 @@ projects:
     show: True
   - name: bioawk
     github_id: lh3/bioawk
+    show: True
+  - name: genomescope
+    github_id: schatzlab/genomescope
+    show: True
+  - name: haplogrep-cmd
+    github_id: seppinho/haplogrep-cmd
     show: True
