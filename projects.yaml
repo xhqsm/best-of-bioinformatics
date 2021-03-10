@@ -277,6 +277,10 @@ projects:
     github_id: samtools/bcftools
     category: vcf-bcf
     show: True
+  - name: vcftools
+    github_id: vcftools/vcftools
+    category: vcf-bcf
+    show: True
   - name: vcflib
     github_id: vcflib/vcflib
     category: vcf-bcf
@@ -482,6 +486,10 @@ projects:
     github_id: Illumina/strelka
     category: variant-caller
     show: True
+  - name: somaticseq
+    github_id: bioinform/somaticseq
+    category: variant-caller
+    show: True
   - name: lancet
     github_id: nygenome/lancet
     category: variant-caller
@@ -564,6 +572,18 @@ projects:
     github_id: ryanlayer/samplot
     category: visualization
     show: True
+  - name: lollipops
+    github_id: joiningdata/lollipops
+    category: visualization
+    show: True
+  - name: genomeview
+    github_id: nspies/genomeview
+    category: visualization
+    show: True
+  - name: weblogo
+    github_id: WebLogo/weblogo
+    category: visualization
+    show: True
   # other
   - name: GTCtoVCF
     github_id: Illumina/GTCtoVCF
@@ -640,4 +660,7 @@ projects:
     show: True
   - name: haplogrep-cmd
     github_id: seppinho/haplogrep-cmd
+    show: True
+  - name: ChromosomeMappings
+    github_id: dpryan79/ChromosomeMappings
     show: True
