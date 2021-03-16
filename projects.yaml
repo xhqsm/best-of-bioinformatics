@@ -12,6 +12,8 @@ categories:
     title: "Assembler"
   - category: "compression"
     title: "Compression"
+  - category: "kmer"
+    title: "K-mer Counter"
   - category: "liftover"
     title: "LiftOver"
   - category: "mhc-hla"
@@ -24,6 +26,8 @@ categories:
     title: "Primer Designing"
   - category: "qc-fastq"
     title: "QC for FASTQ"
+  - category: "quantification"
+    title: "RNA Quantification"
   - category: "sequence-alignment"
     title: "Sequence Alignment"
   - category: "str"
@@ -46,6 +50,32 @@ categories:
     title: "Visualization"
 
 projects:
+  # kmer
+  - name: UniqueKMER
+    github_id: OpenGene/UniqueKMER
+    category: kmer
+    show: True
+  - name: Jellyfish
+    github_id: gmarcais/Jellyfish
+    category: kmer
+    show: True
+  - name: KMC
+    github_id: refresh-bio/KMC
+    category: kmer
+    show: True
+  # quantification
+  - name: kallisto
+    github_id: pachterlab/kallisto
+    category: quantification
+    show: True
+  - name: stringtie
+    github_id: gpertea/stringtie
+    category: quantification
+    show: True
+  - name: SUPPA
+    github_id: comprna/SUPPA
+    category: quantification
+    show: True
   # str
   - name: RepeatHMM
     github_id: WGLab/RepeatHMM
@@ -84,7 +114,7 @@ projects:
   - name: primer3
     github_id: primer3-org/primer3
     category: primer-designing
-    show: True  
+    show: True
   - name: primer3-py
     github_id: libnano/primer3-py
     category: primer-designing
@@ -92,7 +122,7 @@ projects:
   - name: MFEprimer-3.0
     github_id: quwubin/MFEprimer-3.0
     category: primer-designing
-    show: True  
+    show: True
   # qc-fastq
   - name: trimmomatic
     github_id: timflutre/trimmomatic
@@ -113,7 +143,7 @@ projects:
   - name: fastx_toolkit
     github_id: agordon/fastx_toolkit
     category: qc-fastq
-    show: True  
+    show: True
   # compression
   - name: repaq
     github_id: OpenGene/repaq
@@ -252,12 +282,8 @@ projects:
     github_id: lh3/seqtk
     category: fasta-fastq
     show: True
-  - name: Jellyfish
-    github_id: gmarcais/Jellyfish
-    category: fasta-fastq
-    show: True
-  - name: KMC
-    github_id: refresh-bio/KMC
+  - name: fastq-tools
+    github_id: dcjones/fastq-tools
     category: fasta-fastq
     show: True
   - name: fastv
@@ -275,6 +301,10 @@ projects:
   # vcf-bcf
   - name: bcftools
     github_id: samtools/bcftools
+    category: vcf-bcf
+    show: True
+  - name: GLnexus
+    github_id: dnanexus-rnd/GLnexus
     category: vcf-bcf
     show: True
   - name: vcftools
@@ -312,6 +342,10 @@ projects:
     show: True
   - name: bwa
     github_id: lh3/bwa
+    category: ngs-alignment
+    show: True
+  - name: bwa-meth
+    github_id: brentp/bwa-meth
     category: ngs-alignment
     show: True
   - name: bowtie2
@@ -628,9 +662,6 @@ projects:
   - name: kaiju
     github_id: bioinformatics-centre/kaiju
     show: True
-  - name: stringtie
-    github_id: gpertea/stringtie
-    show: True
   - name: sra-tools
     github_id: ncbi/sra-tools
     show: True
@@ -642,9 +673,6 @@ projects:
     show: True
   - name: containers
     github_id: BioContainers/containers
-    show: True
-  - name: SUPPA
-    github_id: comprna/SUPPA
     show: True
   - name: SMNCopyNumberCaller
     github_id: Illumina/SMNCopyNumberCaller
@@ -663,4 +691,7 @@ projects:
     show: True
   - name: ChromosomeMappings
     github_id: dpryan79/ChromosomeMappings
+    show: True
+  - name: vsearch
+    github_id: torognes/vsearch
     show: True
