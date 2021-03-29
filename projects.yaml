@@ -12,6 +12,8 @@ categories:
     title: "Assembler"
   - category: "compression"
     title: "Compression"
+  - category: "cnv"
+    title: "Copy Number Variation"
   - category: "kmer"
     title: "K-mer Counter"
   - category: "liftover"
@@ -20,6 +22,8 @@ categories:
     title: "MHC/HLA"
   - category: "msi-detection"
     title: "Microsatellite Instability"
+  - category: "mtdna"
+    title: "Mitochondrial DNA"
   - category: "ngs-alignment"
     title: "NGS Alignment"
   - category: "primer-designing"
@@ -50,6 +54,40 @@ categories:
     title: "Visualization"
 
 projects:
+  # mtdna
+  - name: haplogrep-cmd
+    github_id: seppinho/haplogrep-cmd
+    category: mtdna
+    show: True
+  - name: MToolBox
+    github_id: mitoNGS/MToolBox
+    category: mtdna
+    show: True
+  - name: HmtNote
+    github_id: robertopreste/HmtNote
+    category: mtdna
+    show: True
+  # cnv
+  - name: cnvkit
+    github_id: etal/cnvkit
+    category: cnv
+    show: True
+  - name: CNVnator
+    github_id: abyzovlab/CNVnator
+    category: cnv
+    show: True
+  - name: FREEC
+    github_id: BoevaLab/FREEC
+    category: cnv
+    show: True
+  - name: ClassifyCNV
+    github_id: Genotek/ClassifyCNV
+    category: cnv
+    show: True
+  - name: ExomeDepth
+    github_id: vplagnol/ExomeDepth
+    category: cnv
+    show: True
   # kmer
   - name: UniqueKMER
     github_id: OpenGene/UniqueKMER
@@ -91,6 +129,10 @@ projects:
     show: True
   - name: HipSTR
     github_id: tfwillems/HipSTR
+    category: str
+    show: True
+  - name: exSTRa
+    github_id: bahlolab/exSTRa
     category: str
     show: True
   # liftover
@@ -409,20 +451,12 @@ projects:
     github_id: tjiangHIT/cuteSV
     category: structural-variation
     show: True
-  - name: cnvkit
-    github_id: etal/cnvkit
-    category: structural-variation
-    show: True
   - name: delly
     github_id: dellytools/delly
     category: structural-variation
     show: True
   - name: lumpy-sv
     github_id: arq5x/lumpy-sv
-    category: structural-variation
-    show: True
-  - name: CNVnator
-    github_id: abyzovlab/CNVnator
     category: structural-variation
     show: True
   - name: smoove
@@ -686,12 +720,15 @@ projects:
   - name: genomescope
     github_id: schatzlab/genomescope
     show: True
-  - name: haplogrep-cmd
-    github_id: seppinho/haplogrep-cmd
-    show: True
   - name: ChromosomeMappings
     github_id: dpryan79/ChromosomeMappings
     show: True
   - name: vsearch
     github_id: torognes/vsearch
+    show: True
+  - name: shapeit4
+    github_id: odelaneau/shapeit4
+    show: True
+  - name: hgvs
+    github_id: counsyl/hgvs
     show: True
