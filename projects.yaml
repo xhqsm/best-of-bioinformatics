@@ -52,8 +52,31 @@ categories:
     title: "Variant Caller"
   - category: "visualization"
     title: "Visualization"
+  - category: "workflow"
+    title: "Workflow Language"
 
 projects:
+  # workflow
+  - name: nextflow
+    github_id: nextflow-io/nextflow
+    category: workflow
+    show: True  
+  - name: cromwell
+    github_id: broadinstitute/cromwell
+    category: workflow
+    show: True  
+  - name: snakemake
+    github_id: snakemake/snakemake
+    category: workflow
+    show: True  
+  - name: bpipe
+    github_id: ssadedin/bpipe
+    category: workflow
+    show: True  
+  - name: pyflow
+    github_id: Illumina/pyflow
+    category: workflow
+    show: True  
   # mtdna
   - name: haplogrep-cmd
     github_id: seppinho/haplogrep-cmd
@@ -70,6 +93,14 @@ projects:
   # cnv
   - name: cnvkit
     github_id: etal/cnvkit
+    category: cnv
+    show: True
+  - name: PennCNV
+    github_id: WGLab/PennCNV
+    category: cnv
+    show: True
+  - name: DECoN
+    github_id: RahmanTeam/DECoN
     category: cnv
     show: True
   - name: CNVnator
@@ -101,6 +132,10 @@ projects:
     github_id: refresh-bio/KMC
     category: kmer
     show: True
+  - name: FASTK
+    github_id: thegenemyers/FASTK
+    category: kmer
+    show: True
   # quantification
   - name: kallisto
     github_id: pachterlab/kallisto
@@ -117,6 +152,14 @@ projects:
   # str
   - name: RepeatHMM
     github_id: WGLab/RepeatHMM
+    category: str
+    show: True
+  - name: STRling
+    github_id: quinlan-lab/STRling
+    category: str
+    show: True
+  - name: STRetch
+    github_id: Oshlack/STRetch
     category: str
     show: True
   - name: ExpansionHunterDenovo
@@ -472,6 +515,10 @@ projects:
     github_id: dzerbino/velvet
     category: assembler
     show: True
+  - name: NextDenovo
+    github_id: Nextomics/NextDenovo
+    category: assembler
+    show: True
   - name: smartdenovo
     github_id: ruanjue/smartdenovo
     category: assembler
@@ -731,4 +778,22 @@ projects:
     show: True
   - name: hgvs
     github_id: counsyl/hgvs
+    show: True
+  - name: FastANI
+    github_id: ParBLiSS/FastANI
+    show: True
+  - name: cas-offinder
+    github_id: snugel/cas-offinder
+    show: True
+  - name: salmon
+    github_id: COMBINE-lab/salmon
+    show: True
+  - name: csvtk
+    github_id: shenwei356/csvtk
+    show: True
+  - name: biothings_client.py
+    github_id: biothings/biothings_client.py
+    show: True
+  - name: Genrich
+    github_id: jsh58/Genrich
     show: True
