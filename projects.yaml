@@ -95,6 +95,10 @@ projects:
     github_id: etal/cnvkit
     category: cnv
     show: True
+  - name: PureCN
+    github_id: lima1/PureCN
+    category: cnv
+    show: True
   - name: PennCNV
     github_id: WGLab/PennCNV
     category: cnv
@@ -128,6 +132,10 @@ projects:
     github_id: gmarcais/Jellyfish
     category: kmer
     show: True
+  - name: squeakr
+    github_id: splatlab/squeakr
+    category: kmer
+    show: True
   - name: KMC
     github_id: refresh-bio/KMC
     category: kmer
@@ -147,6 +155,10 @@ projects:
     show: True
   - name: SUPPA
     github_id: comprna/SUPPA
+    category: quantification
+    show: True
+  - name: TPMCalculator
+    github_id: ncbi/TPMCalculator
     category: quantification
     show: True
   # str
@@ -279,6 +291,14 @@ projects:
     github_id: GSLBiotech/clustal-omega
     category: sequence-alignment
     show: True
+  - name: kalign
+    github_id: TimoLassmann/kalign
+    category: sequence-alignment
+    show: True
+  - name: sequenceserver
+    github_id: wurmlab/sequenceserver
+    category: sequence-alignment
+    show: True
   # msi-detection
   - name: msisensor
     github_id: ding-lab/msisensor
@@ -305,6 +325,10 @@ projects:
     github_id: arq5x/bedtools2
     category: bed-gtf-gff
     show: True
+  - name: bedops
+    github_id: bedops/bedops
+    category: bed-gtf-gff
+    show: True
   - name: gffutils
     github_id: daler/gffutils
     category: bed-gtf-gff
@@ -320,6 +344,10 @@ projects:
   # sam-bam-cram
   - name: sambamba
     github_id: biod/sambamba
+    category: sam-bam-cram
+    show: True
+  - name: hts-nim
+    github_id: brentp/hts-nim
     category: sam-bam-cram
     show: True
   - name: samblaster
